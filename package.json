@@ -1,0 +1,19 @@
+{
+  "name": "managing-es-in-node",
+  "version": "1.0.0",
+  "description": "Example code for how to manage ES indices with node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spruce-bruce/node-elastic.git"
+  },
+  "author": "Aaron Bruce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spruce-bruce/node-elastic/issues"
+  },
+  "homepage": "https://github.com/spruce-bruce/node-elastic#readme"
+}
