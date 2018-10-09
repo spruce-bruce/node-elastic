@@ -4,7 +4,9 @@
   "description": "Example code for how to manage ES indices with node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-tables": "node ./src/create-tables",
+    "seed": "node ./src/seed-database"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,10 @@
   },
   "homepage": "https://github.com/spruce-bruce/node-elastic#readme",
   "dependencies": {
+    "archiver": "^3.0.0",
     "knex": "^0.15.2",
-    "pg": "^7.5.0"
+    "pg": "^7.5.0",
+    "stream-chain": "^2.0.3",
+    "stream-json": "^1.1.1"
   }
 }
