@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-tables": "node ./src/create-tables",
-    "seed": "node ./src/seed-database"
+    "seed": "node ./src/seed-database",
+    "reindex": "./src/reindex.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
   "homepage": "https://github.com/spruce-bruce/node-elastic#readme",
   "dependencies": {
     "archiver": "^3.0.0",
+    "elasticsearch": "^15.1.1",
     "knex": "^0.15.2",
+    "lodash": "^4.17.11",
     "pg": "^7.5.0",
     "stream-chain": "^2.0.3",
     "stream-json": "^1.1.1"

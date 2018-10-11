@@ -44,7 +44,7 @@ const businesses = () => {
       streamValues(),
       data => {
         records.push(data);
-        if (records.length >= 1000) {
+        if (records.length >= 10000) {
           persistBusinesses();
         }
       },
@@ -75,7 +75,7 @@ const reviews = () => {
       streamValues(),
       data => {
         records.push(data);
-        if (records.length >= 1000) {
+        if (records.length >= 10000) {
           persistReviews();
         }
       },
